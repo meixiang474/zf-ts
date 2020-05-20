@@ -1,0 +1,3 @@
+- nodejs commonjs commonjs2
+- es6 modules
+- umd 兼容以上
