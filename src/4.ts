@@ -19,7 +19,7 @@ namespace b {
   interface Person {
     age: number
   }
-  function enhancer<T extends new (...args: any[]) => any>(target: T) {
+  function enhancer<T extends new (...args: any[]) => Person>(target: T) {
     return class extends target {
       age: number = 10
     }
