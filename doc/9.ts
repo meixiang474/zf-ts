@@ -61,7 +61,7 @@ namespace c {
     return a
   }
   sum = f1
-  function f2(a: number, b: number): number{
+  function f2(a: number): number{
     return a
   }
   sum = f2
